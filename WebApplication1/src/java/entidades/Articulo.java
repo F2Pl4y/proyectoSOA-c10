@@ -2,11 +2,12 @@ package entidades;
 
 public class Articulo {
 
-    private String idArticulo, nombreArt;
+    private int idArticulo;
+    private String nombreArt;
     private double precio;
     private int stock;
 
-    public Articulo(String idArticulo, String nombreArt, double precio, int stock) {
+    public Articulo(int idArticulo, String nombreArt, double precio, int stock) {
         this.idArticulo = idArticulo;
         this.nombreArt = nombreArt;
         this.precio = precio;
@@ -16,11 +17,11 @@ public class Articulo {
     public Articulo() {
     }
 
-    public String getIdArticulo() {
+    public int getIdArticulo() {
         return idArticulo;
     }
 
-    public void setIdArticulo(String idArticulo) {
+    public void setIdArticulo(int idArticulo) {
         this.idArticulo = idArticulo;
     }
 

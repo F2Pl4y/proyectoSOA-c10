@@ -2,42 +2,31 @@ package entidades;
 
 public class DetalleVenta {
 
-    private String idDetalleVenta, idVenta, idArticulo;
+    private int idDetalleVenta, idVenta, idArticulo;
     private double subTotal;
     private int cantidad;
 
-    public DetalleVenta(String idDetalleVenta, String idVenta, String idArticulo, double subTotal, int cantidad) {
-        this.idDetalleVenta = idDetalleVenta;
-        this.idVenta = idVenta;
-        this.idArticulo = idArticulo;
-        this.subTotal = subTotal;
-        this.cantidad = cantidad;
-    }
-
-    public DetalleVenta() {
-    }
-
-    public String getIdDetalleVenta() {
+    public int getIdDetalleVenta() {
         return idDetalleVenta;
     }
 
-    public void setIdDetalleVenta(String idDetalleVenta) {
+    public void setIdDetalleVenta(int idDetalleVenta) {
         this.idDetalleVenta = idDetalleVenta;
     }
 
-    public String getIdVenta() {
+    public int getIdVenta() {
         return idVenta;
     }
 
-    public void setIdVenta(String idVenta) {
+    public void setIdVenta(int idVenta) {
         this.idVenta = idVenta;
     }
 
-    public String getIdArticulo() {
+    public int getIdArticulo() {
         return idArticulo;
     }
 
-    public void setIdArticulo(String idArticulo) {
+    public void setIdArticulo(int idArticulo) {
         this.idArticulo = idArticulo;
     }
 

@@ -2,9 +2,10 @@ package entidades;
 
 public class Cliente {
 
-    private String idCliente, nombreCli, apellidoCli, dniCli;
+    private int idCliente;
+    private String nombreCli, apellidoCli, dniCli;
 
-    public Cliente(String idCliente, String nombreCli, String apellidoCli, String dniCli) {
+    public Cliente(int idCliente, String nombreCli, String apellidoCli, String dniCli) {
         this.idCliente = idCliente;
         this.nombreCli = nombreCli;
         this.apellidoCli = apellidoCli;
@@ -14,11 +15,11 @@ public class Cliente {
     public Cliente() {
     }
 
-    public String getIdCliente() {
+    public int getIdCliente() {
         return idCliente;
     }
 
-    public void setIdCliente(String idCliente) {
+    public void setIdCliente(int idCliente) {
         this.idCliente = idCliente;
     }
 
